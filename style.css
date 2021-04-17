@@ -18,6 +18,7 @@
 {
     text-align: center;
 }
+
 .navbar-toggler-icon img
 {
     width: 30px;
@@ -164,7 +165,60 @@
 {
     .about-section-container-text p
     {
-        font-size: .9em;
+        font-size: 1.1em;
         text-align: center;
+    }
+}
+
+/*----------------SERVICES*/
+.services h1
+{
+    text-align: center;
+    font-size: 3.5em;
+    margin: 80px 0 50px;
+    color: #4c7293;
+}
+.services .row
+{
+    margin: 0 auto;
+}
+
+.services-card
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-card-icon
+{
+    width: 110px;
+    height: 110px;
+    border: 2px solid #4c7293;
+    padding:20px;
+    border-radius: 50%;
+}
+.services-card-icon img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.services-card h2
+{
+    margin: 20px 0;
+    color: #4c7293;
+}
+.services-card p
+{
+    width: 80%;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+@media screen and (max-width:768px)
+{
+    .services-card
+    {
+        margin: 30px 0;
     }
 }
