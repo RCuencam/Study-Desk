@@ -222,3 +222,83 @@
         margin: 30px 0;
     }
 }
+
+/*-------------------------FOOTER*/
+
+.footer
+{
+    background: #71a3ce;
+    color: white;
+    padding:20px 0;
+}
+.footer .row
+{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.list-footer ul
+{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+.list-footer ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.social-media ul
+{
+    padding: 0;
+}
+.social-media ul li
+{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.social-media ul li img
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.social-media ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.footer-logo
+{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:768px)
+{
+    .list-footer
+    {
+        display: none;
+    }
+    .about-footer
+    {
+        display: none;
+    }
+
+}
+@media screen and (max-width:1024px)
+{
+    .list-footer
+    {
+        display: none;
+    }
+    .about-footer
+    {
+        display: none;
+    }
+}
