@@ -1,0 +1,55 @@
+/*----------------NAVBAR*/
+.navbar
+{
+    font-size: 1.4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#71a3ce;
+}
+.navbar a
+{
+    color: #4c7293;
+}
+.navbar-brand
+{
+    font-weight: 700;
+    font-size: 1.4em !important;
+}
+.navbar-toggler-icon
+{
+    text-align: center;
+}
+.navbar-toggler-icon img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-nav ul
+{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.navbar-nav ul li
+{
+    transition: 500ms all;
+    margin: 0 3px;
+}
+.nav-link
+{
+    padding: 0;
+}
+.navbar-nav ul li:hover
+{
+    
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:768px)
+{
+    .navbar-nav ul
+    {
+        flex-direction: column;
+    }
+}
