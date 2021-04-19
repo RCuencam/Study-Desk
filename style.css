@@ -16,14 +16,9 @@
 }
 .navbar-toggler-icon
 {
-    text-align: center;
+    background: url("images/menu.svg");
 }
 
-.navbar-toggler-icon img
-{
-    width: 30px;
-    height: 30px;
-}
 
 .navbar-nav ul
 {
