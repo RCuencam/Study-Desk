@@ -284,6 +284,30 @@
         height: 250px;
     }
 }
+/*-------------------------VIDEOS*/
+.videos{
+    display: flex;
+    justify-content: center;
+}
+.videos iframe{
+    margin: 0 40px;
+}
+.videos h1{
+    text-align: center;
+    color: #1955AE;
+    font-size: 3.0em;
+    margin: 20px 0;
+}
+@media screen and (max-width:1024px)
+{
+    .videos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .videos iframe{
+        margin: 0 auto;
+    }
+}
 /*-------------------------FOOTER*/
 
 .footer
