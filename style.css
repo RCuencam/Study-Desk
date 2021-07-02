@@ -84,6 +84,10 @@
     font-size: 1.3em;
     transition: 500ms all;
 }
+.main-section-text button a{
+    color: white;
+    text-decoration: none;
+}
 .main-section-text button:hover
 {
     background: none;
