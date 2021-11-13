@@ -12,7 +12,7 @@
 .navbar-brand
 {
     font-weight: 700;
-    font-size: 1.4em !important;
+    font-size: 1.8em !important;
 }
 .navbar-toggler-icon
 {
@@ -68,7 +68,7 @@
 }
 .main-section-text h1
 {
-    font-size: 3.5em;
+    font-size: 4em;
     font-weight: 700;
     color:  white;
 }
@@ -80,7 +80,7 @@
     border: 2px solid #4c7293;
     color: white;
     border-radius: 5px;
-    padding: 10px 30px;
+    padding: 15px 50px;
     font-size: 1.3em;
     transition: 500ms all;
 }
@@ -243,7 +243,7 @@
 .gallery-card img
 {
     width: 550px;
-    height: 450px;
+    height: 100%;
     -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
@@ -253,7 +253,7 @@
     .gallery-card img
     {
         width: 450px;
-        height: 350px;
+        height: 100%;
     }
 }
 @media screen and (max-width:1200px)
@@ -261,7 +261,7 @@
     .gallery-card img
     {
         width: 400px;
-        height: 300px;
+        height: 100%;
     }
 }
 @media screen and (max-width:990px)
@@ -269,7 +269,7 @@
     .gallery-card img
     {
         width: 500px;
-        height: 500px;
+        height: 100%;
     }
 }
 @media screen and (max-width:768px)
@@ -277,7 +277,7 @@
     .gallery-card img
     {
         width: 400px;
-        height: 350px;
+        height: 100%;
     }
 }
 @media screen and (max-width:450px)
@@ -285,7 +285,7 @@
     .gallery-card img
     {
         width: 300px;
-        height: 250px;
+        height: 100%;
     }
 }
 /*-------------------------VIDEOS*/
